@@ -25,7 +25,8 @@ public class ExcelUtil {
 		public static Object[][] getTestData(String sheetName)
 		{
 		try{
-		  FileInputStream ip = new FileInputStream(TestData_Sheet_Path); 
+			InputStream ip = ExcelUtil.class.getResourceAsStream("/userdata.xlsx");
+		 // FileInputStream ip = new FileInputStream(TestData_Sheet_Path); 
 		                              //FileInputstream is used to create a connection with any file. 
 		                              //if file got deleted, file path is wrong. 
 		  book =  WorkbookFactory.create(ip);  //once the connection is established with excel xlsx file , 
