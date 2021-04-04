@@ -28,8 +28,8 @@ public class ExcelUtil {
 		try{
 		 // InputStream ip = ExcelUtil.class.getResourceAsStream("/userdata.xlsx");
 		  //System.out.println("adadsadadadaadasdadaf:"+ ip);
-		  FileInputStream fip = new FileInputStream("/userdata.xlsx"); 
-		  System.out.println("sdsadadad:"+ fip);
+		  FileInputStream ip = new FileInputStream("/userdata.xlsx"); 
+		  System.out.println("sdsadadad:"+ ip);
 			
 			  FileInputStream tip = new FileInputStream("userdata.xlsx"); 
 		  System.out.println("sdsadadadxcvxcvvdgfd:"+ tip);
