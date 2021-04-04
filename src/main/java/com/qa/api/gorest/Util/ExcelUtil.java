@@ -15,8 +15,7 @@ public class ExcelUtil {
 		public static Workbook book;
 		public static Sheet sheet;
 
-		public static String TestData_Sheet_Path=("C:/Users/Indira/Test/RestAssuredTest/src/main/java/com/qa/api/gorest/"
-			+ "testdata/userdata.xlsx");
+		public static String TestData_Sheet_Path=("userdata.xlsx");
 		/**
 		 * 
 		 * @param sheetName
