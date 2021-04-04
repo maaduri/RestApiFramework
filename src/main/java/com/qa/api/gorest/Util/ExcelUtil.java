@@ -31,7 +31,7 @@ public class ExcelUtil {
 		  //FileInputStream ip = new FileInputStream("/userdata.xlsx"); 
 		  //System.out.println("sdsadadad:"+ ip);
 			
-			  FileInputStream ip = new FileInputStream("userdata.xlsx"); 
+			  FileInputStream ip = new FileInputStream("resources/userdata.xlsx"); 
 		  System.out.println("sdsadadadxcvxcvvdgfd:"+ ip);
 		                              //FileInputstream is used to create a connection with any file. 
 		                              //if file got deleted, file path is wrong. 
