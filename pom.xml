@@ -39,7 +39,7 @@
                       <configuration>
                       
                           <suiteXmlFiles>
-                              <suiteXmlFile>C:/Users/Indira/Test/RestAssuredTest/src/test/resources/testrunners/testng.xml</suiteXmlFile>
+                              <suiteXmlFile>testng.xml</suiteXmlFile>
                               
                           </suiteXmlFiles>
                       </configuration>
