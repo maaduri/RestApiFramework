@@ -28,11 +28,11 @@ public class ExcelUtil {
 		try{
 		  InputStream ip = ExcelUtil.class.getResourceAsStream("/userdata.xlsx");
 		  System.out.println("adadsadadadaadasdadaf:"+ ip);
-		  FileInputStream ip = new FileInputStream("/userdata.xlsx"); 
-		  System.out.println("sdsadadad:"+ ip);
+		  FileInputStream fip = new FileInputStream("/userdata.xlsx"); 
+		  System.out.println("sdsadadad:"+ fip);
 			
-			  FileInputStream ip = new FileInputStream("userdata.xlsx"); 
-		  System.out.println("sdsadadadxcvxcvvdgfd:"+ ip);
+			  FileInputStream tip = new FileInputStream("userdata.xlsx"); 
+		  System.out.println("sdsadadadxcvxcvvdgfd:"+ tip);
 		                              //FileInputstream is used to create a connection with any file. 
 		                              //if file got deleted, file path is wrong. 
 		  book =  WorkbookFactory.create(ip);  //once the connection is established with excel xlsx file , 
