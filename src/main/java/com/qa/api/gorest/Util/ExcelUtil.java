@@ -26,8 +26,8 @@ public class ExcelUtil {
 		public static Object[][] getTestData(String sheetName)
 		{
 		try{
-		  InputStream ip = ExcelUtil.class.getResourceAsStream("/userdata.xlsx");
-		  System.out.println("adadsadadadaadasdadaf:"+ ip);
+		 // InputStream ip = ExcelUtil.class.getResourceAsStream("/userdata.xlsx");
+		  //System.out.println("adadsadadadaadasdadaf:"+ ip);
 		  FileInputStream fip = new FileInputStream("/userdata.xlsx"); 
 		  System.out.println("sdsadadad:"+ fip);
 			
