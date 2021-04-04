@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Go Rest Test suite" duration-ms="7577" started-at="2021-04-03T16:52:06 PDT" finished-at="2021-04-03T16:52:14 PDT">
+    <groups>
+    </groups>
+    <test name="Go RegressionTest" duration-ms="7577" started-at="2021-04-03T16:52:06 PDT" finished-at="2021-04-03T16:52:14 PDT">
+      <class name="com.qa.api.gorest.tests.CreateUserTest">
+        <test-method status="PASS" signature="createUserApiTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.api.gorest.tests.CreateUserTest@646d64ab]" name="createUserApiTest" duration-ms="3096" started-at="2021-04-03T16:52:08 PDT" data-provider="getUserData" finished-at="2021-04-03T16:52:11 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[gita ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[gita@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Female]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Active]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUserApiTest -->
+        <test-method status="PASS" signature="createUserApiTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.api.gorest.tests.CreateUserTest@646d64ab]" name="createUserApiTest" duration-ms="1064" started-at="2021-04-03T16:52:11 PDT" data-provider="getUserData" finished-at="2021-04-03T16:52:12 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Rani]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[rani12@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Female]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Active]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUserApiTest -->
+        <test-method status="PASS" signature="createUserApiTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.api.gorest.tests.CreateUserTest@646d64ab]" name="createUserApiTest" duration-ms="1040" started-at="2021-04-03T16:52:12 PDT" data-provider="getUserData" finished-at="2021-04-03T16:52:13 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ranjit]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ranjit@yahoomail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Male]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Inactive]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUserApiTest -->
+        <test-method status="PASS" signature="createUserApiTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.api.gorest.tests.CreateUserTest@646d64ab]" name="createUserApiTest" duration-ms="1016" started-at="2021-04-03T16:52:13 PDT" data-provider="getUserData" finished-at="2021-04-03T16:52:14 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rana]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[rana@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Male]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Active]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUserApiTest -->
+      </class> <!-- com.qa.api.gorest.tests.CreateUserTest -->
+      <class name="com.qa.api.gorest.tests.GetUserListTest">
+        <test-method status="PASS" signature="getAllUserListApiTest()[pri:1, instance:com.qa.api.gorest.tests.GetUserListTest@59e5ddf]" name="getAllUserListApiTest" duration-ms="4446" started-at="2021-04-03T16:52:06 PDT" finished-at="2021-04-03T16:52:11 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllUserListApiTest -->
+        <test-method status="PASS" signature="getUserWithQueryParamsApiTest()[pri:2, instance:com.qa.api.gorest.tests.GetUserListTest@59e5ddf]" name="getUserWithQueryParamsApiTest" duration-ms="1076" started-at="2021-04-03T16:52:11 PDT" finished-at="2021-04-03T16:52:12 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUserWithQueryParamsApiTest -->
+      </class> <!-- com.qa.api.gorest.tests.GetUserListTest -->
+    </test> <!-- Go RegressionTest -->
+  </suite> <!-- Go Rest Test suite -->
+</testng-results>

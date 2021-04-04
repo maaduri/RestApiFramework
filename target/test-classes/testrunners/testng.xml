@@ -1,0 +1,19 @@
+
+<suite name="Go Rest Test suite" verbose ="1" parallel= "tssts" thread-count= "3">
+
+<!-- <listeners>
+   <listener class-name="com.qa.listeners.ExtentReportListener" />
+   <listener class-name="com.qa.listeners.AllureReportListener" />
+
+   </listeners> -->
+
+
+<test name ="Go RegressionTest" parallel="classes" thread-count ="3">
+ <classes>
+   <class name ="com.qa.api.gorest.tests.CreateUserTest" />
+   <class name ="com.qa.api.gorest.tests.GetUserListTest" />
+      
+  </classes>
+
+</test>
+</suite>
